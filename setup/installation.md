@@ -27,7 +27,6 @@ data, including environment information and session tokens.
 2. Install the helm chart into the cluster
 
    ```bash
-   kubectl create namespace coder
    helm install --namespace coder coder coder/coder --version <VERSION-NUMBER>
    ```
 
@@ -74,3 +73,5 @@ data, including environment information and session tokens.
 > If you lose your admin credentials, you can use the [admin password
 > reset](https://help.coder.com/hc/en-us/articles/360057772573) process to
 > regain access.
+
+At this point, you're ready to proceed to [configuring Coder](configuration.md).
