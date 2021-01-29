@@ -12,8 +12,8 @@ successfully logged in to Coder.
 
 Make sure you have the following information on hand:
 
-- The **admin user credentials** that were presented to you at the end of the
-  [installation](installation.md) process
+- The **admin user credentials** for your Coder deployment (necessary if you're
+  not already logged in).
 
 - Your **Coder license**; you must provide your license key during setup and
   config. Your license should have been sent to you via email; if not, please
