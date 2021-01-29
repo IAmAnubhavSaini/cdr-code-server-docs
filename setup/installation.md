@@ -3,7 +3,8 @@ title: "Installation"
 description: Learn how to install Coder onto your infrastructure.
 ---
 
-This article walks you through the process of installing Coder.
+This article walks you through the process of installing Coder onto your
+[Kubernetes cluster](kubernetes/index.md).
 
 ## Dependencies
 
@@ -24,7 +25,8 @@ data, including environment information and session tokens.
    helm repo add coder https://helm.coder.com
    ```
 
-2. Install the helm chart into the cluster
+2. Install the helm chart onto your cluster (see the
+   [changelog](../changelog/index.md) for a list of Coder versions)
 
    ```bash
    helm install --namespace coder coder coder/coder --version <VERSION-NUMBER>
@@ -73,5 +75,23 @@ data, including environment information and session tokens.
 > If you lose your admin credentials, you can use the [admin password
 > reset](https://help.coder.com/hc/en-us/articles/360057772573) process to
 > regain access.
+
+## Accessing Coder
+
+1. To access Coder's web UI, you'll need to get its IP address by running the
+   following in the terminal to list the Kubernetes services running:
+
+   ```bash
+   kubectl --namespace coder get services
+   ```
+
+   The row for the **ingress-nginx** service includes an **EXTERNAL-IP** value;
+   this is the IP address you need.
+
+2. In your browser, navigate to the external IP of ingress-nginx.
+
+3. Use the admin credentials you obtained in this installation guide's previous
+   step to log in to the Coder platform. If this is the first time you've logged
+   in, Coder will prompt you to change your password.
 
 At this point, you're ready to proceed to [configuring Coder](configuration.md).
