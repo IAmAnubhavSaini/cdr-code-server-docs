@@ -101,4 +101,4 @@ kubectl config set-context --current --namespace=coder
 
 ## Next Steps
 
-At this point, you're ready to proceed to [Installation](../installation.md.
+At this point, you're ready to proceed to [Installation](../installation.md).

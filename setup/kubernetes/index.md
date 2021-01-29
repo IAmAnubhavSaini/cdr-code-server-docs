@@ -13,4 +13,4 @@ To help you get up and running, Coder offers the following deployment guides:
 - [Google Kubernetes Engine (GKE)](../kubernetes/google.md)
 
 If you're all set up with a Kubernetes cluster, please proceed to
-[Installation](../installation.md.)
+[Installation](../installation.md).
