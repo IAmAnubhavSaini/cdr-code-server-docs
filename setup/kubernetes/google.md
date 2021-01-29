@@ -98,3 +98,7 @@ Next, change the kubectl context to point to your newly created namespace:
 ```bash
 kubectl config set-context --current --namespace=coder
 ```
+
+## Next Steps
+
+At this point, you're ready to proceed to [Installation](../installation.md.

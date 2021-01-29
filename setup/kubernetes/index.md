@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Setup
+title: Kubernetes
 description: Learn how to set up a K8 cluster for your Coder deployment.
 ---
 
@@ -11,3 +11,6 @@ To help you get up and running, Coder offers the following deployment guides:
 - [Amazon Elastic Kubernetes Engine](../kubernetes/aws.md)
 - [Azure Kubernetes Service (AKS) Google](../kubernetes/azure.md)
 - [Google Kubernetes Engine (GKE)](../kubernetes/google.md)
+
+If you're all set up with a Kubernetes cluster, please proceed to
+[Installation](../installation.md.)
