@@ -10,6 +10,8 @@ Engine cluster on which Coder can deploy.
 
 Before proceeding, please make sure that you have the [eksctl command line
 utility](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)
+and the [AWS Command Line
+Interface](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 installed on your machine.
 
 ## Step 1: Spin up a K8 Cluster
