@@ -1,4 +1,4 @@
---- 
+---
 title: Set Up an Amazon Elastic Kubernetes Cluster
 description: Learn how to set up an Amazon EKS cluster for your Coder deployment.
 ---

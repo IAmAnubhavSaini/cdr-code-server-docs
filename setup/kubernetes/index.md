@@ -1,4 +1,4 @@
---- 
+---
 title: Kubernetes Setup
 description: Learn how to set up a K8 cluster for your Coder deployment.
 ---
